@@ -1,0 +1,53 @@
+@echo off 
+title HACKUJE NASA!
+color a
+echo ===============================
+echo Wczytywanie
+echo Wybierz tryb
+echo 1-Otworz program (HACKUJE NASA)!
+echo 2-Wyjdz z programu!
+echo ===============================
+
+set /p wybieram:=Wybieram:
+if %wybieram:%==1 goto graj
+if %wybieram:%==2 goto exit
+
+:graj
+cls
+echo ===============================
+echo     Lamacz HASEL! 
+ECHO Polecany przez 2 uzytkownikow!
+echo ==============================
+echo Twoje AJPI jest zabezpieczone!
+echo 1.Hackuje NASA
+echo 2.Hackuje komputer pani od Biologi
+
+set /p h:=Wybieram:
+if %h:%==1 goto nasa
+if %h:%==2 goto biola
+
+:nasa
+cls
+echo HACKUJE NASA!
+echo Twoje IP zostało zabronione
+echo Ladowanie Bazy Danych komputerow w NASA
+echo Wyszukiwanie IP...
+echo Wyszukano
+echo Wlamywanie sie na komputer...
+echo Powodzenie
+echo Wywaliles baze danych nasy!
+:biola
+cls
+echo HaCkOwAnIe kompa pani od Biologi
+echo Pojawianie sie losowych slow na ekranie
+echo Otworz:CMD
+echo Usuwanie System32
+echo Usunieto!
+echo Utraciles polaczenie!
+echo Pomyslnie wysadziles kompa!
+
+pause
+
+
+
+English version coming soon English version coming soon! 
